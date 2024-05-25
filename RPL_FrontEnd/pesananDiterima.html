@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Clothing Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="navbar bg-base-100">
+    
+    <div class="flex-1">
+      <a class="btn btn-ghost normal-case text-xl">DROPDEAD</a>
+    </div>
+    <div class="flex-1" style="justify-content: flex-end;">      
+      <a href="index.html" style="padding: 10px;">Home</a>
+      <a href="pesananDiterima.html" style="padding: 10px;">History</a>
+    </div>
+    <div class="flex-none" style="justify-items: center; align-items: center;">
+      <div class="dropdown dropdown-end">
+        <label tabindex="0" class="btn btn-ghost btn-circle">
+          
+          <div class="indicator">
+            <a href="cart.html"><img src="cartBtn.svg" style="height: 40px;" href="cart.html"> </a>
+            
+          </div>
+        </label>
+        <div tabindex="0" class="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow">
+          
+        </div>
+      </div>
+      <div class="dropdown dropdown-end">
+        <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+          <div class="w-10 rounded-full">
+            <img src="Prf.svg" />
+          </div>
+        </label>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li>
+            <!-- <a class="justify-between">
+              Profile
+            </a> -->
+          <li><a href="login.html">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="hero" style="height: 400px; justify-content: start; padding: 20px;">
+    <div class="hero-content flex-col lg:flex-row" style="height: 200px;">
+      <img src="content.svg" class="max-w-sm rounded-lg shadow-2xl" />
+      <div>
+        <h1 class="text-5xl font-bold">Angel With A Dirty Face</h1>
+        <p class="py-6">XXL</p>
+        <h1 class="text-3xl font-bold">30 $</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero" style="height: 400px; justify-content: start; padding: 20px;">
+    <div class="hero-content flex-col lg:flex-row" style="height: 200px;">
+      <img src="content.svg" class="max-w-sm rounded-lg shadow-2xl" />
+      <div>
+        <h1 class="text-5xl font-bold">Angel With A Dirty Face</h1>
+        <p class="py-6">XL</p>
+        <h1 class="text-3xl font-bold">30 $</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero" style="height: 400px; justify-content: start; padding: 20px;">
+    <div class="hero-content flex-col lg:flex-row" style="height: 200px;">
+      <img src="content.svg" class="max-w-sm rounded-lg shadow-2xl" />
+      <div>
+        <h1 class="text-5xl font-bold">Angel With A Dirty Face</h1>
+        <p class="py-6">L</p>
+        <h1 class="text-3xl font-bold">30 $</h1>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer items-center p-4" style=" background-color: black; color: white; margin-top: 20px;">
+    <aside class="items-center grid-flow-col">
+    <h1 style="font-size: 30px; padding: 20px; padding-left: 400px;">Total</h1>
+    </aside> 
+    <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+    <h1 style="font-size: 30px; padding: 20px; padding-right: 200px;">60$</h1>
+  </footer>
+
+  <footer class="footer items-center p-4" style="color: black;  ">
+    <aside class="items-center grid-flow-row">
+    <h1 style="font-size: 20px; padding: 20px; padding-left: 100px;">Silahkan klik pesanan diterima</h1>
+    <h1 style="font-size: 20px; padding-left: 100px;">setelah menerima dan menerima pesanan</h1>
+    </aside> 
+    <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end" style="padding-right: 100px;">
+        <button class="btn join-item" onclick="parent.location=`feedback.html`" style="font-size: 20px; background-color: black; color: white;">Feedback</button>
+        <button class="btn join-item" style="font-size: 20px; background-color: black; color: white;">Pesanan Diterima</button>
+  </footer>
+</body>

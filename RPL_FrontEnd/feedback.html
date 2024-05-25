@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Clothing Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="navbar bg-base-100">
+    
+    <div class="flex-1">
+      <a class="btn btn-ghost normal-case text-xl">DROPDEAD</a>
+    </div>
+    <div class="flex-1" style="justify-content: flex-end;">      
+      <a href="index.html" style="padding: 10px;">Home</a>
+      <a href="pesananDiterima.html" style="padding: 10px;">History</a>
+    </div>
+    <div class="flex-none" style="justify-items: center; align-items: center;">
+      <div class="dropdown dropdown-end">
+        <label tabindex="0" class="btn btn-ghost btn-circle">
+          
+          <div class="indicator">
+            <a href="cart.html"><img src="cartBtn.svg" style="height: 40px;" href="cart.html"> </a>
+            
+          </div>
+        </label>
+        <div tabindex="0" class="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow">
+          
+        </div>
+      </div>
+      <div class="dropdown dropdown-end">
+        <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+          <div class="w-10 rounded-full">
+            <img src="Prf.svg" />
+          </div>
+        </label>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li>
+            <!-- <a class="justify-between">
+              Profile
+            </a> -->
+          <li><a href="login.html">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <body>
+    <div class="hero min-h-screen bg-base">
+          <div class="card flex-shrink-0 w-full max shadow-2xl bg-base-100" style="width: 700px;">
+            <form class="card-body">
+                <footer class="footer items-center p-4" style="background-color: black; color: white; justify-content: center;">
+                    <aside class="items-center grid-flow-row" style="padding: 20px;">
+                      <h1 style="justify-self: center; font-size: 30px;"><b>Give Feedback</b></h1>
+                      <p style="justify-self: center; font-size: 20px;">Do you have a suggestion or found some bug?</p>
+                      <p style="justify-self: center; font-size: 20px;">Let Us know</p>
+                    </aside> 
+
+                  </footer>
+
+                  <div class="rating rating-lg" style="justify-content: center;">
+                    <input type="radio" name="rating-9" class="rating-hidden" />
+                    <input type="radio" name="rating-9" class="mask mask-star-2" />
+                    <input type="radio" name="rating-9" class="mask mask-star-2" checked />
+                    <input type="radio" name="rating-9" class="mask mask-star-2" />
+                    <input type="radio" name="rating-9" class="mask mask-star-2" />
+                    <input type="radio" name="rating-9" class="mask mask-star-2" />
+                  </div>
+
+              <div class="form-control" style="padding: 20px;">
+                <label class="label">
+                  <span class="label-text" style="font-size: 20px;"><b>How was your experice</b></span>
+                </label>
+                <textarea placeholder="Describe your experience here..." class="textarea textarea-bordered textarea-md w-full max-w" ></textarea>
+              </div>
+              <div class="grid-flow-col gap-5 md:place-self-center md:justify-self-end">
+                <button class="btn join-item" onclick="parent.location=`feedback.html`" style="font-size: 20px; background-color: black; color: white; width: 200px;">Submit</button>
+                <button class="btn join-item" style="font-size: 20px; background-color: black; color: white; width: 200px;">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+  </body>
